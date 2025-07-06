@@ -1,14 +1,18 @@
 {
   "name": "playwright-mcp-demo",
   "version": "1.0.0",
+  "description": "Demo repository showcasing Playwright with Model Context Protocol (MCP) for AI-driven testing",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "show-report": "playwright show-report",
+    "install:browsers": "playwright install"
   },
-  "keywords": [],
+  "keywords": ["playwright", "mcp", "testing", "automation", "ai", "demo"],
   "author": "ericayala412",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@playwright/test": "^1.51.1",
     "@types/node": "^22.14.0",
