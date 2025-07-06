@@ -1,0 +1,64 @@
+# Page snapshot
+
+```yaml
+- text: SHOP
+- navigation:
+  - link "Go back":
+    - /url: /list/mens_outerwear
+    - button "Go back":
+      - img
+  - link "SHOP Home":
+    - /url: /
+    - text: SHOP
+  - 'link "Shopping cart: 1 item"':
+    - /url: /cart
+    - 'button "Shopping cart: 1 item"':
+      - img
+  - link "Men's Outerwear":
+    - /url: /list/mens_outerwear
+  - link "Ladies Outerwear":
+    - /url: /list/ladies_outerwear
+  - link "Men's T-Shirts":
+    - /url: /list/mens_tshirts
+  - link "Ladies T-Shirts":
+    - /url: /list/ladies_tshirts
+- main:
+  - img "Recycled Plastic Bottle Hoodie - Green"
+  - heading "Recycled Plastic Bottle Hoodie - Green" [level=1]
+  - text: $60.95 Size
+  - combobox "Size":
+    - option "XS"
+    - option "S"
+    - option "M" [selected]
+    - option "L"
+    - option "XL"
+  - text: Quantity
+  - combobox "Quantity":
+    - option "1" [selected]
+    - option "2"
+    - option "3"
+    - option "4"
+    - option "5"
+  - heading "Description" [level=2]
+  - paragraph:
+    - text: "Ever wonder where all of the disposable water bottles of the world end up? We know some of them are reused for a second purpose. Each of these hoodies contain approximately 9 recycled water bottles that are woven into the fabric. Features:"
+    - list:
+      - listitem: 50% recycled cotton, 50% recycled polyester.
+      - listitem: Full zipper and orange drawstring pulls.
+      - listitem: USA made.
+      - listitem: Available in forest green with the white Google logo embroidered at left bicep.
+  - button "Add this item to cart": Add to Cart
+- contentinfo:
+  - link "Made by Polymer":
+    - /url: https://www.polymer-project.org/3.0/toolbox/
+  - text: Demo Only
+- text: Item added to the cart
+- dialog:
+  - text: Added to cart
+  - link "View Cart":
+    - /url: /cart
+  - link "Checkout":
+    - /url: /checkout
+  - button "Close dialog":
+    - img
+```

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",               // Target modern JavaScript (ES2017+)
+    "module": "CommonJS",             // Use Node.js-style module resolution
+    "rootDir": "src",                 // Specify source directory
+    "outDir": "dist",                 // Output compiled files to 'dist'
+    "strict": true,                   // Enable strict type checking
+    "esModuleInterop": true,          // Enable compatibility with CommonJS modules
+    "resolveJsonModule": true         // Allow importing JSON files
+  },
+  "include": ["src/**/*.ts"],         // Include all TypeScript files in 'src'
+  "exclude": ["node_modules"]         // Exclude dependency files
+}

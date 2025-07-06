@@ -1,0 +1,20 @@
+{
+  "name": "playwright_playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "ericayala412",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
