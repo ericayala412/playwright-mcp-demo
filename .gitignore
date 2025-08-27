@@ -36,7 +36,5 @@ coverage/
 # Operating System
 .DS_Store
 Thumbs.db
-test-results/.last-run.json
-test-results/add-hoodie-to-cart-add-recycled-hoodie-to-cart-chromium/test-failed-1.png
-test-results/add-hoodie-to-cart-add-recycled-hoodie-to-cart-chromium/error-context.md
-playwright-report/index.html
+test-results/
+playwright-report/
