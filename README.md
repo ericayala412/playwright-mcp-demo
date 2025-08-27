@@ -53,46 +53,6 @@ This repository demonstrates how to use Playwright with Model Context Protocol (
    npx playwright install
    ```
 
-## Install and Run MCP Server
-
-There are two ways to install the MCP server:
-
-1. Using the GitHub repository:
-   ```bash
-   git clone https://github.com/microsoft/playwright-mcp.git
-   cd playwright-mcp
-   npm install
-   npm run build
-   ```
-
-2. Using VS Code Insiders:
-   - Open VS Code Insiders
-   - Navigate to [https://github.com/microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
-   - Click on "Install Server" button
-   - Follow the prompts to complete the installation
-
-### Starting the MCP Server
-
-#### Using VS Code Insiders (Recommended)
-1. Open VS Code Insiders
-2. Press Cmd+Shift+P (macOS) or Ctrl+Shift+P (Windows/Linux)
-3. Type "MCP: Start Server"
-4. Select the command to start the server
-5. The server status will be shown in the VS Code status bar
-
-#### Using Command Line
-If you installed via GitHub repository:
-```bash
-cd playwright-mcp  # Navigate to your MCP installation directory
-npm run start      # Start the server
-```
-
-You can verify the server is running by checking:
-- VS Code: Look for the MCP status indicator in the status bar
-- Command Line: The server will show a message like "MCP Server listening on port ..."
-
-Make sure the MCP server is running before executing your tests.
-
 ## Running Tests
 
 To run all tests:
@@ -115,3 +75,20 @@ npx playwright test src/test/add-hoodie-to-cart.spec.ts
 
 This demo includes example tests that showcase MCP capabilities:
 - Adding items to cart
+
+## Creating Tests
+In order to create tests via the Agent
+
+### Starting the MCP Server in VS Code Insiders
+
+1. Open VS Code Insiders
+2. Start the server:
+   - Press Cmd+Shift+P (macOS) or Ctrl+Shift+P (Windows/Linux)
+   - Type "MCP: List Severs"
+   - In the menu click Playwright
+   - Click "Start Server"
+3. Verify the server is running:
+   - Repeast step 2 to list the MCP servers
+   - Next to playwright you should see "running"
+
+Once the server is running, you will be able to 
