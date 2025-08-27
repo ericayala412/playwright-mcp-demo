@@ -12,17 +12,6 @@ This repository demonstrates how to use Playwright with Model Context Protocol (
 
 1. Download VS Code Insiders:
    - For latest stable build: [https://code.visualstudio.com/insiders/](https://code.visualstudio.com/insiders/)
-   - Alternatively, you can use winget (Windows), brew (macOS), or snap (Linux):
-     ```bash
-     # Windows (using winget)
-     winget install Microsoft.VisualStudioCode.Insiders
-
-     # macOS (using Homebrew)
-     brew install --cask visual-studio-code-insiders
-
-     # Linux (using Snap)
-     sudo snap install code-insiders
-     ```
 
 2. Follow the installation instructions for your operating system if downloading manually:
    - Windows: Run the downloaded installer
@@ -83,11 +72,11 @@ This demo includes example tests that showcase MCP capabilities:
 1. Open VS Code Insiders
 2. Start the server:
    - Press Cmd+Shift+P (macOS) or Ctrl+Shift+P (Windows/Linux)
-   - Type "MCP: List Severs"
+   - Type "MCP: List Servers"
    - In the menu click Playwright
    - Click "Start Server"
 3. Verify the server is running:
-   - Repeast step 2 to list the MCP servers
+   - Repeat step 2 to list the MCP servers
    - Next to playwright you should see "running"
 
 ### Creating Tests With Copilot Chat
