@@ -53,7 +53,7 @@ This repository demonstrates how to use Playwright with Model Context Protocol (
    npx playwright install
    ```
 
-## Install MCP Server
+## Install and Run MCP Server
 
 There are two ways to install the MCP server:
 
@@ -71,7 +71,27 @@ There are two ways to install the MCP server:
    - Click on "Install Server" button
    - Follow the prompts to complete the installation
 
-After installation, make sure the MCP server is running before executing your tests.
+### Starting the MCP Server
+
+#### Using VS Code Insiders (Recommended)
+1. Open VS Code Insiders
+2. Press Cmd+Shift+P (macOS) or Ctrl+Shift+P (Windows/Linux)
+3. Type "MCP: Start Server"
+4. Select the command to start the server
+5. The server status will be shown in the VS Code status bar
+
+#### Using Command Line
+If you installed via GitHub repository:
+```bash
+cd playwright-mcp  # Navigate to your MCP installation directory
+npm run start      # Start the server
+```
+
+You can verify the server is running by checking:
+- VS Code: Look for the MCP status indicator in the status bar
+- Command Line: The server will show a message like "MCP Server listening on port ..."
+
+Make sure the MCP server is running before executing your tests.
 
 ## Running Tests
 
