@@ -69,15 +69,14 @@ npx playwright test src/test/add-hoodie-to-cart.spec.ts
 
 - `src/test/` - Contains all test files
 - `src/test/config/` - Test configuration files
-- `example-prompts/` - Example MCP prompts for test scenarios
+- `prompts/` - Example MCP prompts for test scenarios
 
 ## Test Examples
 
 This demo includes example tests that showcase MCP capabilities:
 - Adding items to cart
 
-## Creating Tests
-In order to create tests via the Agent
+## Creating Tests with Copilot and Playwright MCP
 
 ### Starting the MCP Server in VS Code Insiders
 
@@ -91,4 +90,19 @@ In order to create tests via the Agent
    - Repeast step 2 to list the MCP servers
    - Next to playwright you should see "running"
 
-Once the server is running, you will be able to 
+### Creating Tests With Copilot Chat
+
+Once the server is running, you can create tests using the following steps:
+
+1. Open Copilot:
+   - Press Cmd+Shift+I (macOS) or Ctrl+Shift+I (Windows/Linux) to open Copilot
+
+2. Switch to Agent Mode:
+   - Look for the chevron with the list of modes in the Copilot chat
+   - Select "Agent"
+
+3. View the full list of MCP Commands:
+   - Click the wrench icon (🔧) in the chat interface
+   - Scroll down to see the full list of available MCP commands you can use in your tests within the chat
+
+Now you can start creating tests by describing what you want to test to the Agent, and it will help you implement the test using MCP commands. 
