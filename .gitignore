@@ -1,6 +1,7 @@
 # Dependencies
 node_modules/
 package-lock.json
+yarn.lock
 
 # Logs
 logs
@@ -8,6 +9,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
 
 # Optional npm cache directory
 .npm
@@ -28,15 +30,32 @@ yarn-error.log*
 
 # Coverage directory
 coverage/
+*.lcov
 
 # IDE directories
 .idea/
 .vscode/
 
-# Operating System
+# Operating System files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-test-results/.last-run.json
-test-results/add-hoodie-to-cart-add-recycled-hoodie-to-cart-chromium/test-failed-1.png
-test-results/add-hoodie-to-cart-add-recycled-hoodie-to-cart-chromium/error-context.md
-playwright-report/index.html
+
+# Playwright specific
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Temporary files
+*.tmp
+*.temp
+*~
