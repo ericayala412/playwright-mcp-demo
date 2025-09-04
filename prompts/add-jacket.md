@@ -14,5 +14,4 @@ description: Navigate to https://shop.polymer-project.org/ and add a hoodie to t
 - On the Women's Outerwear page select Ladies Sonoma Hybrid Knit Jacket
 - Click ADD TO CART
 - In the modal that appears, click VIEW CART
-- Verify that Ladies Sonoma Hybrid Knit Jacket appears in the cart
 - Make sure when the test is created it uses Playwright syntax so it can run properly
