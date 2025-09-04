@@ -63,7 +63,8 @@ npx playwright test src/test/add-shirt.spec.ts
 ## Test Examples
 
 This demo includes example tests that showcase MCP capabilities:
-- Adding items to cart
+- A test created entirely with Playwright MCP that uses a test e-commerce site to add a shirt into a shopping cart: `add-shirt.spec.ts`
+- Two other prompts to try out under the `prompts` folder
 
 ## Creating Tests with Copilot and Playwright MCP
 
