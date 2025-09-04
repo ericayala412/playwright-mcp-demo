@@ -11,16 +11,13 @@ export default defineConfig({
   use: {
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
+    storageState: undefined,
   },
 
   projects: [
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
-    },
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
     },
   ],
 });

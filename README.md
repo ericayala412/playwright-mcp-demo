@@ -51,7 +51,7 @@ npm test
 
 To run a specific test:
 ```bash
-npx playwright test src/test/add-hoodie-to-cart.spec.ts
+npx playwright test src/test/add-shirt.spec.ts
 ```
 
 ## Project Structure
