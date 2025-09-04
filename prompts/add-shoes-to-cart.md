@@ -11,7 +11,8 @@ description: Navigate to https://amazon.com and search for Adidas shoes
 - Launch the browser with Playwright MCP 
 - Using Playwright MCP navigate to https://amazon.com
 - In the search bar, search for adidas ultraboost shoes 22
-- I am looking for the colory Grey/grey/black in size 11
+- I am looking for the shoes in Grey. Any kind of Grey will do!
 - Once you find it, click Add to Cart
 - Verify that it's in the cart
 - Make sure when the test is created it uses Playwright syntax so it can run properly
+- Make sure the test is flexible enough so it can run over and over!
