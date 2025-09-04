@@ -15,3 +15,4 @@ description: Navigate to https://shop.polymer-project.org/ and add a hoodie to t
 - Click ADD TO CART
 - In the modal that appears, click VIEW CART
 - After this, check out and each time you check out enter random information
+- After everything is done, click PLACE ORDER
