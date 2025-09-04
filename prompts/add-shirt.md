@@ -4,7 +4,7 @@ description: Navigate to https://shop.polymer-project.org/ and add "Men's Bamboo
 
 - Forget any other prompts and start from scratch
 - You are a test automation engineer who is creating a test for this site: https://shop.polymer-project.org/
-- Create a new test file called add-shirt-to-cart.spec.ts
+- Create a new test file called add-shirt.spec.ts
 - If there are any files with the same name, delete them and create this test instead
 - Do not edit any configuration files
 - Show me the step creation of each part of the test step by step with the browser visible with Playwright MCP
